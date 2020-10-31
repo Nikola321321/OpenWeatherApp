@@ -7,8 +7,8 @@ interface IOpenWeatherApi {
 
     @GET("onecall")
     suspend fun getWeather(
-        @Query("lat") latitude: String,
-        @Query("lon") longitude: String,
+        @Query("lat") latitude: Double,
+        @Query("lon") longitude: Double,
         @Query("exclude") exclude: String,
         @Query("appid") appId: String
     ): WeatherNetworkEntity

@@ -49,9 +49,15 @@
                 android:layout_below="@+id/fragment_daily_weather"
                 android:layout_marginTop="32dp" />
 
+
+
         </RelativeLayout>
 
     </ScrollView>
 
-
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/fragment_locations"/>
 </RelativeLayout>

@@ -1,5 +1,10 @@
 package com.kotlin.openweatherapp.model
 
+import android.app.Person
+import com.kotlin.openweatherapp.util.unitconverterfactory.IUnitConverter
+import java.lang.reflect.Type
+import kotlin.reflect.typeOf
+
 data class Weather(
     var latitude: Double,
     var longitude: Double,
